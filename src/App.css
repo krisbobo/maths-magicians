@@ -1,39 +1,70 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --flex: flex;
+  --center: center;
+  --primary: #fff;
+  --secondary:rgb(231, 150, 80);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--primary);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myApp {
+  display: var(--flex);
+  min-height: 90vh;
+  justify-content: var(--center);
+  align-items: var(--center);
 }
 
-.App-link {
-  color: #61dafb;
+.calculator {
+  width: 100%;
+  max-width: 50rem;
+  padding: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.screen {
+  text-align: right;
+  color: var(--primary);
+  font-size: 2rem;
+  padding: 2.3rem;
+  background-color: rgb(133, 133, 144);
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  cursor: pointer;
+  padding: 1.5rem;
+  font-size: 2rem;
+  outline: none;
+  color: #000;
+  border: 1px solid rgb(209, 209, 209);
+  background-color: rgb(224, 224, 224);
+}
+
+.calculator-buttons {
+  display: var(--flex);
+  flex-wrap: wrap;
+}
+
+.calculator-buttons button {
+  max-width: 25%;
+  flex: 1 25%;
+}
+
+.calculator-buttons button:nth-child(17) {
+  max-width: 50%;
+  flex: 1 50%;
+}
+
+button:nth-child(4n) {
+  background-color: var(--secondary);
+}
+
+button:last-child {
+  background-color: var(--secondary);
 }
