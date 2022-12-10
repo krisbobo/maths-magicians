@@ -64,6 +64,14 @@ button:last-child {
   background-color: var(--secondary);
 }
 
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  opacity: 1;
+}
+
 .calculator-buttons button:nth-child(17) {
   max-width: 50%;
   flex: 1 50%;
