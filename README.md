@@ -1,12 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="https://raw.githubusercontent.com/krisbobo/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -23,6 +16,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -33,7 +27,12 @@
 
 # 📖 [Maths magicians] <a name="about-project"></a>
 
-> Describe project here
+> Maths magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+- Make simple calculations.
+- Read a random math-related quote.
+
+Currently, I built the core functionality, which is a calculator. It allows one to perform all math operations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,7 +59,7 @@ The major tools and languages used are:
 
 > The web app has the following key features:
 
-- **[]**
+- **[A Calculator]**
 - **[]**
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
@@ -128,6 +127,17 @@ To run tests, run the following command:
 - GitHub: [krisbobo](https://github.com/krisbobo)
 - Twitter: [ChrisboboSys](https://twitter.com/ChrisboboSys)
 - LinkedIn: [kiyong-christian](https://linkedin.com/in/kiyong-christian)
+
+<p align="right">[<a href="#readme-top">Back to Top</a>]</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> The following two features will be added to this project;
+
+- [ ] **[A home page to describe our website and what it does]**
+- [ ] **[A quotes page in which one gets access to mathematical quotes]**
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
