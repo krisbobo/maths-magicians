@@ -22,10 +22,11 @@ const Calculator = () => {
 
   const { total, next, operation } = calculatorInput;
   const result = `${total}${operation}${next}`.replace(/null/g, '');
+  const adjustedResult = result.replace(/undefined/g, '');
 
   return (
     <div className="calculator">
-      <div className="screen">{result}</div>
+      <div className="screen">{adjustedResult}</div>
       <div className="calculator-buttons">
         <button type="button" name="AC" onClick={handleClick}>AC</button>
         <button type="button" name="+/-" onClick={handleClick}>+/-</button>
